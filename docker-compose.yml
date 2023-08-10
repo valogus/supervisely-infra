@@ -1,0 +1,11 @@
+version: '2.4'
+
+services:
+  infra:
+    build:
+      context: .
+    environment:
+      MAILBLUSTER_AUTH_TOKEN: ${MAILBLUSTER_AUTH_TOKEN}
+    volumes:
+      - ./data:/supervisely-infra/data
+      - ./logs:/supervisely-infra/logs
