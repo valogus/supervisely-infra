@@ -1,0 +1,13 @@
+.DS_Store
+# Logs
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variable files
+.env
+
+logs
+data
+
